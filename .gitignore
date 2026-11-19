@@ -1,0 +1,25 @@
+# Inputs and generated artifacts are local, never part of the source repository.
+data/
+artifacts/
+outputs/
+*.joblib
+*.parquet
+*.ipynb
+*.csv
+*.pdf
+*.png
+*.zip
+
+# Local runtimes, caches, build products, and credentials.
+.venv/
+.deps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.env
+*.env
+.DS_Store
